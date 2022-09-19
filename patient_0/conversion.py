@@ -6,8 +6,9 @@ from pathlib import Path
 # Lines 51276 - 67590: NULL
 # Lines 67591 - 67659: HX4(?)
 # Lines 67660 - 67850: NULL
-# Lines 67848 - 76038: 00 to FF Matrix
-# Lines 76039 - 196358: 3. Pseudo-Random Bytes
+# Lines 67848 - 76039: 00 to FF Matrix
+# Lines 76040 - 76042: 3. Are these True random bytes for Cryptology?
+# Lines 76039 - 196358: Pseudo-Random Bytes(?)
 # Lines 196359 - 197638: NTFS Metadata
 # Lines 197639 - 201222: NULL but FF
 # Lines 201223 - 202246: NTFS Metadata Record (RCRD) LogFile
