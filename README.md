@@ -5,22 +5,24 @@ TISC is a CTF organised by [CSIT][1]. More details on the 2022 event can be foun
 Unfortunately, I only made it to task 3 before being unable to proceed any further.
 Flags can be found in [flags.txt][3], though I doubt that will be of use.
 
-<div style="padding:16px; border:1px solid #ced0d6; font-family:'Open Sans', sans-serif; background-color:white;">
-    <div style="display:flex;">
-        <div style="max-height:80px;">
-            <img src="https://api.badgr.io/public/assertions/DpTkbep1S8a-3OJ3dpU0nA/image" title="Badge Image: TISC 2022 Badge of Participation" style="height:100%; max-width:80px;">
+<html>
+    <div style="padding:16px; border:1px solid #ced0d6; font-family:'Open Sans', sans-serif; background-color:white;">
+        <div style="display:flex;">
+            <div style="max-height:80px;">
+                <img src="https://api.badgr.io/public/assertions/DpTkbep1S8a-3OJ3dpU0nA/image" title="Badge Image: TISC 2022 Badge of Participation" style="height:100%; max-width:80px;">
+            </div>
+            <div style="padding-left:16px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;">
+                <a style="color:#0a1233; font-weight:600; text-decoration:underline; padding-bottom:4px;" target="_blank" href="https://badgr.com/public/assertions/DpTkbep1S8a-3OJ3dpU0nA">TISC 2022 Badge of Participation</a>
+                <div style="font-size:12px; font-weight:700; color:#3b415c;  padding-bottom:8px; text-overflow:ellipsis; overflow:hidden;">TISC Issuing Team</div>
+                <div style="font-size:12px; color:#3b415c; text-overflow:ellipsis; overflow:hidden;">Participants who complete at least level 1 will receive a digital badge as a little memento for your participation in TISC 2022.</div>
+            </div>
         </div>
-        <div style="padding-left:16px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;">
-            <a style="color:#0a1233; font-weight:600; text-decoration:underline; padding-bottom:4px;" target="_blank" href="https://badgr.com/public/assertions/DpTkbep1S8a-3OJ3dpU0nA">TISC 2022 Badge of Participation</a>
-            <div style="font-size:12px; font-weight:700; color:#3b415c;  padding-bottom:8px; text-overflow:ellipsis; overflow:hidden;">TISC Issuing Team</div>
-            <div style="font-size:12px; color:#3b415c; text-overflow:ellipsis; overflow:hidden;">Participants who complete at least level 1 will receive a digital badge as a little memento for your participation in TISC 2022.</div>
+        <div style="border-top: 1px solid #ced0d6; padding-top:16px; margin-top:8px; display:flex; justify-content: space-between; color: #3b415c;">
+        <div>Sep 15, 2022</div>
+        <a style="color: #0a1233; font-weight:600; text-decoration:underline;" target="_blank" href="https://badgecheck.us.badgr.com/?url=https%3A%2F%2Fapi.badgr.io%2Fpublic%2Fassertions%2FDpTkbep1S8a-3OJ3dpU0nA&">Verify</a>
         </div>
     </div>
-    <div style="border-top: 1px solid #ced0d6; padding-top:16px; margin-top:8px; display:flex; justify-content: space-between; color: #3b415c;">
-    <div>Sep 15, 2022</div>
-    <a style="color: #0a1233; font-weight:600; text-decoration:underline;" target="_blank" href="https://badgecheck.us.badgr.com/?url=https%3A%2F%2Fapi.badgr.io%2Fpublic%2Fassertions%2FDpTkbep1S8a-3OJ3dpU0nA&">Verify</a>
-    </div>
-</div>
+</html>
 
 #### Tasks 
 ##### Level 1: Slay the Dragon
