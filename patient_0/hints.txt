@@ -1,0 +1,41 @@
+NTFS BIOS Parameter Block:
+This is not a bootable disk. Please insert a bootable floppy and press any key to try again ...
+
+1. The BPB is broken, can you fix it? (BIOS Parameter Block) 
+    ↳ PDF File
+    ↳ The password. (Part of? Corrupted?)
+
+2. Thirsty for the flag? Go find the stream. 
+    ↳ PNG File Text Base 32 Decoded. 
+    ↳ Points to where the encrypted data is.
+
+3. Are these True random bytes for Cryptology?
+    ↳ Points to software used in the encryption.
+    ↳ Followed by a mass of (semi?) random data
+    ↳ https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator
+
+4. If you need a password, the original reading of the BPB was actually Checked and ReChecked 32 times!
+    ↳ Delimited by '.'
+    ↳ Ignore the 'original'
+    ↳ Points to algorithm used to produce the password.
+
+Hex File Command (PowerShell):
+format-hex "C:\NYP\Semester 3\Events\TISC\patient_0\PATIENT0" > "C:\NYP\Semester 3\Events\TISC\patient_0\PATIENT0_hex"
+
+Part 1:
+8 bytes (or 16 hexadecimal digits)
+Last 4 bytes in hexadecimal (lowercase) <-- Implies there is at least one in 'a-f' range
+E.g. If found in order: \x01 \x23 \x45 \x67 \x89 \xab \xcd \xef
+TISC{89abcdef}
+
+TISC÷f5« (0x20 - 0x27): http://jdebp.info/FGA/bios-parameter-block.html
+Ans: TISC{f76635ab}
+
+
+Part 2:
+F7: ÷
+66: f
+35: 5
+AB: «
+
+56 byte key: DES

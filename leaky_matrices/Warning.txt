@@ -1,0 +1,12 @@
+PS C:\Users\wrenp> ssh chal00bq3ouweqtzva9xcobep6spl5m75fucey.ctf.sg 56765
+
+The authenticity of host 'chal00bq3ouweqtzva9xcobep6spl5m75fucey.ctf.sg (188.166.214.176)' can't be established.
+ECDSA key fingerprint is SHA256:b3umc4YC7YlKbDU+iDO6Kvmo4VGJ0lOWPAjxpNBCW/4.
+
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+
+Warning: Permanently added 'chal00bq3ouweqtzva9xcobep6spl5m75fucey.ctf.sg,188.166.214.176' (ECDSA) to the list of known hosts.
+
+wrenp@chal00bq3ouweqtzva9xcobep6spl5m75fucey.ctf.sg: Permission denied (publickey).
+
+PS C:\Users\wrenp>

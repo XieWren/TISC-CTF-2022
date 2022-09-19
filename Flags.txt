@@ -1,0 +1,8 @@
+TAsk 1: Slay the Dragon
+TISC{L3T5_M33T_4G41N_1N_500_Y34R5_96eef57b46a6db572c08eef5f1924bc3}
+
+Task 2: Leaky Matrices
+TISC{d0N7_R0lL_Ur_0wN_cRyp70_7a25ee4d777cc6e9}
+
+Task 3: Patient 0
+Part 1 - TISC{f76635ab}
